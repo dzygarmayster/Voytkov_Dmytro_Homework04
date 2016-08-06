@@ -107,7 +107,6 @@ header {
 /*=========NAV SECTION=========*/
 
 .main-menu {
-    /*position: absolute;*/
     padding: 0 20px;
     border-bottom: 1px solid #000;
     background-color: #333;
@@ -117,7 +116,6 @@ header {
 .main-menu li {
     display: inline-block;
     position: relative;
-    /*float: left;*/
     list-style: none;
 }
 

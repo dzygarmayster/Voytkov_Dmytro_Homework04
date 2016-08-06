@@ -57,45 +57,20 @@ header {
     font-size: .6em;
 }
 
-.flag-box img {
-    display: block;
-    margin-bottom: 2px;
-}
-
 .flag-box {
     display: block;
+    margin-right: 13px;
+    float: left;
     color: #128aa7;
     text-align: center;
 }
 
-.flags .b1 {
-    margin-right: 16px;
-    float: left;
+.flag-box img {
+    display: inline-block;
 }
 
-.flags .b2 {
-    margin-right: 14px;
-    float: left;
-}
-
-.flags .b3 {
-    margin-right: 13px;
-    float: left;
-}
-
-.flags .b4 {
-    margin-right: 14px;
-    float: left;
-}
-
-.flags .b5 {
-    margin-right: 10px;
-    float: left;
-}
-
-.flags .b6 {
-    margin-right: 0;
-    float: left;
+.flag-box:last-child {
+    margin-right: 3px;
 }
 
 .photo {

@@ -107,6 +107,7 @@ header {
 /*=========NAV SECTION=========*/
 
 .main-menu {
+    position: relative;
     padding: 0 20px;
     border-bottom: 1px solid #000;
     background-color: #333;
@@ -223,7 +224,6 @@ header {
 
 .colums-box {
     display: flex;
-    flex-wrap: wrap;
     background-color: #fff;
 }
 

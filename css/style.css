@@ -25,6 +25,7 @@ body {
 /*=========HEADER SECTION=========*/
 
 header {
+    position: relative;
     background-color: #fff;
 }
 
@@ -32,13 +33,20 @@ header {
     float: left;
 }
 
+.logo-text {
+    position: absolute;
+    top: 109px;
+    left: 100px;
+    color: #5fa5bb;
+    font-size: .8em;
+}
+
 .head-right {
     float: right;
 }
 
 .contacts {
-    padding: 9px 23px 20px 0;
-    float: right;
+    padding: 9px 23px 20px 203px;
     color: #5fa5bb;
 }
 

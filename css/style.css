@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.clearfix::after {
+.clearfix {
     display: block;
     clear: both;
     content: '';
@@ -46,7 +46,8 @@ header {
 }
 
 .contacts {
-    padding: 9px 23px 20px 203px;
+    padding: 9px 23px 20px;
+    float: right;
     color: #5fa5bb;
 }
 
@@ -67,7 +68,7 @@ header {
 
 .flag-box {
     display: block;
-    margin-right: 13px;
+    margin: 11px 13px 0 0;
     float: left;
     color: #128aa7;
     text-align: center;

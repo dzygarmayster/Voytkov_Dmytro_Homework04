@@ -42,8 +42,8 @@ header {
 }
 
 .head-right {
-    float: right;
     margin-right: 28px;
+    float: right;
 }
 
 .contacts {
@@ -77,7 +77,7 @@ header {
 
 .flag-box {
     display: block;
-    margin: 11px 0 0 0;
+    margin: 11px 0 0;
     float: left;
     color: #128aa7;
     text-align: center;
@@ -267,7 +267,7 @@ header {
 
 .right-column-title {
     display: block;
-    padding: 0 0 3px 0;
+    padding: 0 0 3px;
     font-size: 1.04rem;
     text-align: center;
 }

@@ -4,9 +4,9 @@
 }
 
 .clearfix {
+    content: '';
     display: block;
     clear: both;
-    content: '';
 }
 
 body {
@@ -122,9 +122,8 @@ header {
 .main-menu {
     position: relative;
     padding: 0 20px;
-    border-bottom: 1px solid #000;
     background-color: #333;
-    box-shadow: 0 2px 2px #555;
+    box-shadow: inset 0 -1px #000, 0 2px 2px #555;
 }
 
 .main-menu li {
@@ -136,7 +135,7 @@ header {
 .main-menu li a {
     color: #fff;
     font-size: .85em;
-    line-height: 28px;
+    line-height: 29px;
     text-decoration: none;
 }
 
@@ -194,7 +193,7 @@ header {
 .submenu-travel {
     display: none;
     position: absolute;
-    top: 29px;
+    top: 30px;
     left: 11px;
     width: 150px;
     background-color: #333;
@@ -204,7 +203,7 @@ header {
 .submenu-services {
     display: none;
     position: absolute;
-    top: 29px;
+    top: 30px;
     left: 25px;
     width: 100px;
     background-color: #333;
@@ -214,22 +213,14 @@ header {
 .submenu-partners {
     display: none;
     position: absolute;
-    top: 29px;
+    top: 30px;
     left: 25px;
     width: 130px;
     background-color: #333;
     box-shadow: 0 4px 6px #404040;
 }
 
-.main-2:hover > .submenu-travel {
-    display: block;
-}
-
-.main-3:hover > .submenu-services {
-    display: block;
-}
-
-.main-4:hover > .submenu-partners {
+.menu-hover:hover > .submenu {
     display: block;
 }
 
